@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="title" content="MoMaStage: Skill-State Graph Guided Planning and Closed-Loop Execution for Long-Horizon Indoor Mobile Manipulation - Anonymous Author(s)">
+  <meta name="description" content="MoMaStage is a structured vision-language framework for long-horizon indoor mobile manipulation that eliminates explicit scene mapping by grounding VLMs within a Skill-State Graph.">
+  <meta name="keywords" content="Perception for Grasping and Manipulation, Mobile Manipulation, Deep Learning in Grasping and Manipulation, Long-Horizon Planning, Vision-Language Models, Skill-State Graph, Closed-Loop Execution, Embodied AI, Robotics">
+  <meta name="author" content="Anonymous Author(s)">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <meta name="citation_title" content="MoMaStage: Skill-State Graph Guided Planning and Closed-Loop Execution for Long-Horizon Indoor Mobile Manipulation">
+  <meta name="citation_author" content="Anonymous Author(s)">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="Under Review">
+  
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <title>MoMaStage | Anonymous Project Page</title>
+  
+  <link rel="icon" type="image/x-icon" href="static/images/logo.png">
+  <link rel="apple-touch-icon" href="static/images/logo.png">
+  
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+</head>
+<body>
+
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body" style="padding-bottom: 1rem;">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title" style="font-size: 2.4rem; line-height: 1.35;">
+              <img src="static/images/logo.png" alt="MoMaStage Logo" style="height: 1.2em; vertical-align: middle; margin-right: 0;">MoMaStage: Skill-State Graph Guided Planning and Closed-Loop Execution for Long-Horizon Indoor Mobile Manipulation
+            </h1>
+            
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Anonymous Author(s)</span>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="section" style="padding-top: 0.5rem; padding-bottom: 2rem;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <video poster="" id="main-video" controls muted loop width="100%" preload="metadata" style="border-radius: 8px;">
+          <source src="static/videos/banner_video.mp4" type="video/mp4">
+        </video>
+        <p class="content has-text-centered" style="margin-top: 20px;">
+          Video demonstrations showcasing the execution examples results of <strong>MoMaStage</strong> in both real-world experiments and simulation environments.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light" style="padding-top: 2rem; padding-bottom: 2rem;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Indoor mobile manipulation (MoMA) enables robots to translate natural language instructions into physical actions, yet long-horizon execution remains challenging due to cascading errors and limited generalization across diverse environments. Learning-based approaches often fail to maintain logical consistency over extended horizons, while methods relying on explicit scene representations impose rigid structural assumptions that reduce adaptability in dynamic settings. To address these limitations, we propose <strong>MoMaStage</strong>, a structured vision-language framework for long-horizon MoMA that eliminates the need for explicit scene mapping. MoMaStage grounds a Vision-Language Model (VLM) within a <strong>Hierarchical Skill Library</strong> and a topology-aware <strong>Skill-State Graph</strong>, constraining task decomposition and skill composition within a feasible transition space. This structured grounding ensures that generated plans remain logically consistent and topologically valid with respect to the agent’s evolving physical state. To enhance robustness, MoMaStage incorporates a <strong>closed-loop execution</strong> mechanism that monitors proprioceptive feedback and triggers <strong>graph-constrained semantic replanning</strong> when deviations are detected, maintaining alignment between planned skills and physical outcomes. Extensive experiments in physics-rich simulations and real-world environments demonstrate that MoMaStage outperforms state-of-the-art baselines, achieving substantially higher planning success, reducing token overhead, and significantly improving overall task success rates in long-horizon mobile manipulation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Overview</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <img src="static/images/teaser.png" alt="MoMaStage Teaser" style="width: 100%; border-radius: 8px;">
+        <p class="content has-text-justified" style="margin-top: 20px;">
+          We propose <strong>MoMaStage</strong>, a framework for long-horizon mobile manipulation that drives VLMs to translate instructions into valid skill chains via a <strong>Skill-State Graph</strong> and a <strong>hierarchical skill library</strong>, with <strong>closed-loop proprioceptive verification</strong> for guided replanning upon failure.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Pipeline</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <img src="static/images/pipeline.png" alt="MoMaStage Pipeline" style="width: 100%; border-radius: 8px;">
+        <p class="content has-text-justified" style="margin-top: 20px;">
+          Given multi-modal inputs, the system integrates <strong>graph-constrained planning</strong> with <strong>closed-loop execution</strong>. (a) The VLM-based planner decomposes long-horizon instructions into semantic skill sequences, restricted by the topological constraints of the <em>Skill Graph</em>. (b) A post-hoc feasibility check is performed using the <em>Skill-State Graph</em> to ensure global state consistency. (c) During execution, the system monitors <em>ego-state</em> transitions and triggers <em>graph-grounded replanning</em> to autonomously recover from failures.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  </body>
+  </html>
